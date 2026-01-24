@@ -53,6 +53,7 @@
       jupyterlab
       category-encoders
       imbalanced-learn
+      factor_analyzer
       ipykernel
       ipywidgets
     '';
