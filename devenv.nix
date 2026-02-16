@@ -23,6 +23,8 @@
         scikit-learn
 	shap
 	tqdm
+	tensorflow
+	keras
 	# ipywidgets
         # jupyterlab
 	# ipykernel
@@ -39,6 +41,8 @@
       scikit-learn
       shap
       tqdm
+      tensorflow
+      keras
       # ipywidgets
       # jupyterlab
       # ipykernel
