@@ -11,3 +11,6 @@ devenv.local.yaml
 
 # ipynb-checkpoint
 .ipynb_checkpoints
+
+# ignore saved model
+cbow_model

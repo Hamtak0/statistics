@@ -25,6 +25,8 @@
 	tqdm
 	tensorflow
 	keras
+	nltk # text processing
+	gensim
 	# ipywidgets
         # jupyterlab
 	# ipykernel
@@ -43,6 +45,8 @@
       tqdm
       tensorflow
       keras
+      nltk
+      gensim
       # ipywidgets
       # jupyterlab
       # ipykernel
