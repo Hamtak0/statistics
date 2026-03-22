@@ -23,3 +23,6 @@ cbow_model
 
 # ignore model
 *.keras
+
+# ignore npy
+*.npy
