@@ -21,10 +21,11 @@
         openpyxl
         matplotlib
         scikit-learn
-	shap
+	# shap
 	tqdm
-	tensorflow
-	keras
+	# tensorflow
+	# keras
+	# opencv4
 	nltk # text processing
 	gensim
 	# ipywidgets
@@ -41,10 +42,11 @@
       openpyxl
       matplotlib
       scikit-learn
-      shap
+      # shap
       tqdm
-      tensorflow
-      keras
+      # tensorflow
+      # keras
+      # opencv4
       nltk
       gensim
       # ipywidgets
@@ -58,10 +60,14 @@
     enable = true;
     venv.enable = true;
     venv.requirements = ''
-      jupyterlab
       category-encoders
       imbalanced-learn
       factor_analyzer
+      shap
+      tensorflow
+      keras
+      opencv-python
+      jupyterlab
       ipykernel
       ipywidgets
     '';
