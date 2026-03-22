@@ -14,3 +14,12 @@ devenv.local.yaml
 
 # ignore saved model
 cbow_model
+
+# ignore picture
+*.jpg
+
+# ignore zip
+*.zip
+
+# ignore model
+*.keras
