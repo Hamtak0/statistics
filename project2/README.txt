@@ -1,5 +1,5 @@
 01204314 Statistic Project2
-Github: 
+Github: https://github.com/Hamtak0/statistics/tree/main/project2
 
 Files explanation:
 - Part 1 (Dataset C & B)
