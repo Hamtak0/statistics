@@ -21,16 +21,16 @@
         openpyxl
         matplotlib
         scikit-learn
-	# shap
-	tqdm
-	# tensorflow
-	# keras
-	# opencv4
-	nltk # text processing
-	gensim
-	# ipywidgets
+        # shap
+        tqdm
+        # tensorflow
+        # keras
+        # opencv4
+        nltk # text processing
+        gensim
+        # ipywidgets
         # jupyterlab
-	# ipykernel
+        # ipykernel
         ;
     in
     [
@@ -52,7 +52,20 @@
       # ipywidgets
       # jupyterlab
       # ipykernel
+
+      # pkgs.libxcb
+      # pkgs.libGL
+      # pkgs.glib
+      # pkgs.zlib
     ];
+
+  # env.LD_LIBRARY_PATH = lib.makeLibraryPath [
+  #   pkgs.stdenv.cc.cc.lib
+  #   pkgs.xorg.libxcb
+  #   pkgs.libGL
+  #   pkgs.glib
+  #   pkgs.zlib
+  # ];
 
   # https://devenv.sh/languages/
   # languages.rust.enable = true;
